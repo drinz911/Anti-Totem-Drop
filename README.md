@@ -1,2 +1,2 @@
 # Anti-Totem-Drop
-prevents totems from being dropped 1.21.4
+Prevents totems from being droped when held or hovered over.
