@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "antitotemdrop",
+  "version": "1.21.4",
+  "icon": "assets/anti-drop/icon.png",
+  "name": "Anti Totem Drop",
+  "description": "Prevents Totems of Undying from being dropped.",
+  "authors": ["drinz"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "drinz.antidrop.AntiDrop"
+    ],
+    "modmenu": [
+      "drinz.antidrop.modmenu.AntiDropModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.22",
+    "minecraft": "1.21.4"
+  },
+  "mixins": [
+    "anti-drop.mixins.json"
+  ]
+}
